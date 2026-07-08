@@ -713,6 +713,115 @@
 </figcaption>
 </figure>
 
+<h3>Left wall — cutting list (with angles)</h3>
+<p>
+  The left wall is the plain, solid side wall (the Biolan recesses against it). Because it carries the roof
+  fall it is <strong>raked</strong>: the studs step down from <strong>220 cm at the front (door side)</strong>
+  to <strong>170 cm at the back</strong> over the <strong>180 cm</strong> depth — a constant
+  <strong>15.5° slope</strong>. Only the <em>tops</em> take the angle; every bottom cut is square. Below are
+  the exact stud and plate lengths and the cuts, so you can mark and cross-cut the whole wall in one go.
+</p>
+<figure>
+<svg viewBox="0 0 660 620" xmlns="http://www.w3.org/2000/svg">
+  <!-- LEFT WALL cut-list elevation. 2 px/cm. floor top y=520. front(left)=220cm=>y80, back(right)=170cm=>y180. depth 180cm=360px x120..480 -->
+  <text x="30" y="28" font-size="14" font-weight="bold" fill="#222">Left wall — stud &amp; plate cut list (with angles)</text>
+  <text x="30" y="46" font-size="10" fill="#777">solid side wall · front (door side) 220 cm → back 170 cm over 180 cm · rake 15.5° · 45 × 95 mm SPF</text>
+
+  <!-- floor -->
+  <line x1="80" y1="520" x2="520" y2="520" stroke="#333" stroke-width="2"/>
+  <text x="84" y="536" font-size="10" fill="#666">top of raised floor</text>
+
+  <!-- bottom plate (square ends) -->
+  <rect x="120" y="511" width="360" height="9" fill="#c8a06a" stroke="#8a6438"/>
+  <text x="300" y="507" font-size="9" text-anchor="middle" fill="#5a4422">bottom plate 45×95 · 180 cm · ends square (90°)</text>
+
+  <!-- sloped double-thickness top plate (parallelogram) -->
+  <polygon points="120,80 480,180 480,189 120,89" fill="#c8a06a" stroke="#8a6438"/>
+  <text x="250" y="150" font-size="9" fill="#5a4422" transform="rotate(15.5 250 150)">sloped top plate 45×95 · ~187 cm · ends 15.5° (plumb)</text>
+
+  <!-- 4 studs -->
+  <g fill="#e8d4ae" stroke="#8a6438">
+    <rect x="120" y="90" width="6" height="421"/>
+    <rect x="237" y="122" width="6" height="389"/>
+    <rect x="357" y="156" width="6" height="355"/>
+    <rect x="474" y="188" width="6" height="323"/>
+  </g>
+  <text x="134" y="330" font-size="11" fill="#333" transform="rotate(-90 134 330)">S1 · 211.0 cm</text>
+  <text x="251" y="345" font-size="11" fill="#333" transform="rotate(-90 251 345)">S2 · 194.3 cm</text>
+  <text x="371" y="370" font-size="11" fill="#333" transform="rotate(-90 371 370)">S3 · 177.7 cm</text>
+  <text x="488" y="395" font-size="11" fill="#333" transform="rotate(-90 488 395)">S4 · 161.0 cm</text>
+
+  <!-- angle callout: horizontal reference off the front top + slope -->
+  <line x1="120" y1="80" x2="220" y2="80" stroke="#c33" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M120,80 L480,180" stroke="#c33" stroke-width="1" stroke-dasharray="4 3" fill="none"/>
+  <text x="150" y="98" font-size="11" fill="#c33">15.5°</text>
+  <text x="150" y="66" font-size="11" fill="#c33">all stud TOPS cut 15.5° off-square (long point = front edge)</text>
+
+  <!-- rise/run note along the slope -->
+  <text x="300" y="122" font-size="11" fill="#1a6" font-weight="bold" transform="rotate(15.5 300 122)">rise 50 cm over 180 cm run = 15.5°  ·  each 600 mm bay drops 167 mm</text>
+
+  <!-- front height dim -->
+  <line x1="100" y1="520" x2="100" y2="80" stroke="#0066aa"/>
+  <line x1="94" y1="520" x2="106" y2="520" stroke="#0066aa"/><line x1="94" y1="80" x2="106" y2="80" stroke="#0066aa"/>
+  <text x="90" y="300" font-size="11" fill="#0066aa" transform="rotate(-90 90 300)">220 cm (front)</text>
+
+  <!-- back height dim -->
+  <line x1="500" y1="520" x2="500" y2="180" stroke="#0066aa"/>
+  <line x1="494" y1="520" x2="506" y2="520" stroke="#0066aa"/><line x1="494" y1="180" x2="506" y2="180" stroke="#0066aa"/>
+  <text x="516" y="360" font-size="11" fill="#0066aa" transform="rotate(90 516 360)">170 cm (back)</text>
+
+  <!-- depth dim + stud spacing -->
+  <line x1="120" y1="560" x2="480" y2="560" stroke="#0066aa"/>
+  <line x1="120" y1="554" x2="120" y2="566" stroke="#0066aa"/><line x1="480" y1="554" x2="480" y2="566" stroke="#0066aa"/>
+  <g stroke="#0066aa"><line x1="240" y1="554" x2="240" y2="566"/><line x1="360" y1="554" x2="360" y2="566"/></g>
+  <text x="300" y="582" font-size="11" text-anchor="middle" fill="#0066aa">180 cm depth · studs at 0 / 60 / 120 / 180 cm (≈600 mm OC)</text>
+
+  <text x="120" y="602" font-size="12" fill="#444">FRONT (door)</text>
+  <text x="420" y="602" font-size="12" fill="#444">BACK</text>
+</svg>
+<figcaption>
+  Left wall, viewed on its face. Four vertical studs (45 × 95) drop 167 mm per 600 mm bay; each top is a single
+  15.5° cut, the long point on the front (high) edge. The bottom plate is a plain 180 cm piece with square ends;
+  the top plate is raked, both ends cut 15.5° (plumb) so it sits flush to the front and back walls. Nothing else
+  on this wall carries an angle.
+</figcaption>
+</figure>
+
+<table>
+<tr><th>Piece</th><th>Size</th><th>Length</th><th>Cut angles</th><th>Qty</th></tr>
+<tr><td>Bottom plate</td><td>45 × 95 mm</td><td>180.0 cm</td><td>Both ends square (90°)</td><td>1</td></tr>
+<tr><td>Top plate (sloped)</td><td>45 × 95 mm</td><td>186.8 cm <span style="color:#777">(measured along the slope)</span></td><td>Both ends 15.5° (plumb cut)</td><td>1</td></tr>
+<tr><td>Stud <strong>S1</strong> — front corner</td><td>45 × 95 mm</td><td>211.0 cm</td><td>Bottom square · <strong>top 15.5°</strong></td><td>1</td></tr>
+<tr><td>Stud <strong>S2</strong> — 60 cm from front</td><td>45 × 95 mm</td><td>194.3 cm</td><td>Bottom square · <strong>top 15.5°</strong></td><td>1</td></tr>
+<tr><td>Stud <strong>S3</strong> — 120 cm from front</td><td>45 × 95 mm</td><td>177.7 cm</td><td>Bottom square · <strong>top 15.5°</strong></td><td>1</td></tr>
+<tr><td>Stud <strong>S4</strong> — back corner</td><td>45 × 95 mm</td><td>161.0 cm</td><td>Bottom square · <strong>top 15.5°</strong></td><td>1</td></tr>
+</table>
+<div class="note">
+  <strong>How the numbers are built — so you can adjust them.</strong>
+  <ul style="margin:.4rem 0 0;">
+    <li><strong>Slope:</strong> 50 cm fall ÷ 180 cm run → <strong>15.5°</strong> (tan 15.5° ≈ 0.278). The wall
+      height is 220 cm at the front face and drops <strong>167 mm every 600 mm bay</strong> (211.0 → 194.3 →
+      177.7 → 161.0 cm at the wall top).</li>
+    <li><strong>Stud length = wall height at that stud − 90 mm</strong> (45 mm bottom plate + 45 mm top plate).
+      Lengths are the <strong>long point</strong> (front/high edge); the 15.5° top cut leaves the back edge of
+      each stud ≈ <strong>13 mm shorter</strong> (45 mm × tan 15.5°).</li>
+    <li><strong>Single sloped top plate</strong> is assumed here — the outer roof rafter (R1) lands directly on
+      it. If you run a <em>doubled</em> top plate on this wall instead, take another <strong>~47 mm off every
+      stud</strong> and add a second 187 cm raked plate.</li>
+    <li><strong>All bottom cuts are square.</strong> The only angled cuts on the whole wall are the four stud
+      tops and the two top-plate ends — all 15.5°. Set a stop on the mitre saw at 15.5° and run them together.</li>
+    <li>The Biolan recesses against this wall — add a short <strong>nogging</strong> between studs wherever a
+      grab rail or bracket will be screwed on.</li>
+  </ul>
+</div>
+<div class="note" style="background:#eef6ff;border-left-color:#0066aa;">
+  <strong>Cladding on this wall (also angled).</strong> The vertical 22 × 120 board-and-batten boards each get a
+  <strong>15.5° cut across the top</strong> to follow the rake. With boards + cover battens at ~145 mm centres,
+  each board is ≈ <strong>40 mm shorter than the one in front of it</strong> — longest at the front (door) end,
+  shortest at the back. Add your roof overhang and the ~48 cm skirt drop to each board's finished length; cut
+  the top angle first, then trim the square bottom to length once the wall stands.
+</div>
+
 <h2>7. Foundation &amp; floor framing</h2>
 <p>
   The hut sits on <strong>9 concrete pier blocks (pilariharkko, 240 × 240 × 195 mm)</strong> in a 3 × 3 grid,
