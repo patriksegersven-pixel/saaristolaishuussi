@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Saaristolaishuussi — family outhouse with full polycarbonate roof</title>
+<title>Saaristolaishuussi — family outhouse with a traditional bitumen-felt roof</title>
 <style>
   body { font-family: -apple-system, system-ui, sans-serif; max-width: 980px; margin: 2rem auto; padding: 0 1rem; color:#222; }
   h1 { border-bottom: 2px solid #444; padding-bottom: .3rem; }
@@ -29,10 +29,14 @@
   and <strong>storage shelves</strong> for paper, peat and sanitiser. Interior ≈ <strong>3.1 m²</strong>.
   Solid tongue-and-groove floorboards, vertical <strong>board-and-batten</strong> cladding
   (<em>peiterimalaudoitus</em>) in <strong>Falu red</strong> with white trim, and a hand-built
-  ledged-and-braced plank <strong>door</strong> with a heart cut-out. The one modern twist: the
-  <strong>entire roof is a single translucent surface</strong> of 16 mm <strong>opal</strong>
-  (white-translucent) twin-wall polycarbonate, so soft daylight floods the room and there is almost
-  nothing overhead to collect dust.
+  ledged-and-braced plank <strong>door</strong> with a heart cut-out. The roof is a
+  <strong>traditional Finnish bitumen-felt roof (huopakatto)</strong> — bitumen shingles
+  (<em>palahuopa</em>) over an underlay felt (<em>aluskate</em>), all carried on a
+  <strong>solid tongue-and-groove board deck</strong> (<em>raakaponttilauta / umpilaudoitus</em>),
+  <strong>not plywood</strong>. It is a quiet, dark, weather-tight monopitch that looks right on the
+  outer islands and is easy to patch for decades. <em>(An earlier version used a translucent
+  polycarbonate roof for overhead daylight; because a felt roof is opaque, the room is now lit by the
+  side window — see the note under §5 for keeping it bright.)</em>
 </p>
 
 <div class="note">
@@ -181,12 +185,10 @@
   <rect x="270" y="614" width="140" height="54" fill="#b98a52" stroke="#5a3318"/>
   <text x="339" y="700" font-size="11" text-anchor="middle" fill="#3a2410">steps up ~48 cm</text>
 
-  <!-- clear roof front eave -->
-  <polygon points="98,130 580,130 580,108 98,108" fill="#dce8ea" stroke="#2a8" stroke-width="1.5" opacity="0.7"/>
-  <rect x="127" y="106" width="9" height="26" fill="#b07f43" stroke="#5a3f22" stroke-width="0.6"/>
-  <rect x="335" y="106" width="9" height="26" fill="#b07f43" stroke="#5a3f22" stroke-width="0.6"/>
-  <rect x="543" y="106" width="9" height="26" fill="#b07f43" stroke="#5a3f22" stroke-width="0.6"/>
-  <text x="339" y="100" font-size="13" text-anchor="middle" fill="#226">opal polycarbonate roof (front eave)</text>
+  <!-- bitumen-felt roof, high (front) eave -->
+  <polygon points="98,130 580,130 580,108 98,108" fill="#3f3f3f" stroke="#222" stroke-width="1.5"/>
+  <rect x="98" y="126" width="482" height="6" fill="#c8a06a" stroke="#5a3f22" stroke-width="0.6"/>
+  <text x="339" y="100" font-size="13" text-anchor="middle" fill="#333">bitumen-felt roof — high (front) eave</text>
 
   <!-- dims -->
   <line x1="100" y1="614" x2="100" y2="130" stroke="#0066aa" stroke-width="1"/>
@@ -265,14 +267,22 @@
   <rect x="118" y="594" width="32" height="53" fill="#b98a52" stroke="#5a3318"/>
   <text x="74" y="735" font-size="11" fill="#5a3318">step up ~48 cm (2–3 steps or a rock)</text>
 
-  <!-- CLEAR ROOF: front overhang (106,98) to back overhang (612,239) -->
-  <polygon points="106,86 612,227 612,239 106,98" fill="#dce8ea" stroke="#2a8" stroke-width="2" opacity="0.85"/>
-  <line x1="106" y1="92" x2="612" y2="233" stroke="#9bb" stroke-width="1"/>
-  <text x="320" y="120" font-size="13" fill="#1a6" font-weight="bold" transform="rotate(16 320 120)">opal twin-wall polycarbonate roof</text>
+  <!-- FELT ROOF build-up: rafter + T&G board deck + underlay + bitumen shingles -->
+  <!-- shingle layer (dark) on top -->
+  <polygon points="106,84 612,225 612,233 106,92" fill="#3f3f3f" stroke="#222" stroke-width="1.5"/>
+  <!-- underlay felt (thin) -->
+  <line x1="106" y1="94" x2="612" y2="235" stroke="#7a6a52" stroke-width="2"/>
+  <!-- T&G board deck -->
+  <polygon points="106,96 612,237 612,245 106,104" fill="#d2b58a" stroke="#5a3f22" stroke-width="1"/>
+  <text x="150" y="120" font-size="12" fill="#eee" font-weight="bold" transform="rotate(16 150 120)">bitumen shingles (palahuopa)</text>
+  <text x="150" y="270" font-size="11" fill="#5a3f22">underlay + T&amp;G board deck</text>
+  <text x="150" y="284" font-size="10" fill="#7a5a2a">(no plywood) — see §5</text>
+  <line x1="240" y1="262" x2="300" y2="175" stroke="#7a5a2a" stroke-width="0.8"/>
 
-  <!-- single mid purlin under the roof (at mid-depth x=348) -->
-  <rect x="341" y="150" width="14" height="14" fill="#9c6f3e" stroke="#5a3f22"/>
-  <text x="300" y="142" font-size="10" fill="#5a3f22">mid purlin (one)</text>
+  <!-- rafter under the deck (at mid-depth x=348) -->
+  <rect x="341" y="158" width="16" height="18" fill="#9c6f3e" stroke="#5a3f22"/>
+  <text x="380" y="152" font-size="10" fill="#5a3f22">rafter 45×120 (down-slope)</text>
+  <line x1="378" y1="149" x2="357" y2="164" stroke="#5a3f22" stroke-width="0.8"/>
 
   <!-- vent pipe up the back -->
   <rect x="552" y="170" width="12" height="520" fill="#444" stroke="#222"/>
@@ -306,7 +316,10 @@
   <text x="120" y="70" font-size="13" fill="#444">FRONT</text>
   <text x="560" y="70" font-size="13" fill="#444">BACK</text>
 </svg>
-<figcaption>Cut-away section (front at left) — the key drawing. The Biolan eco is <strong>recessed</strong>: its lower half drops through a hole in the <strong>raised floor (+48 cm)</strong>, so the seat lands at <strong>≈ 49 cm</strong>. Step up at the door; a <strong>hatch in the back skirt</strong> empties the container. The bigger roof needs <strong>one slim mid-purlin</strong> (or step up to 32 mm sheet to keep it purlin-free). The window now sits in the side wall — see the next drawing.</figcaption>
+<figcaption>Cut-away section (front at left) — the key drawing. The Biolan eco is <strong>recessed</strong>: its lower half drops through a hole in the <strong>raised floor (+48 cm)</strong>, so the seat lands at <strong>≈ 49 cm</strong>. Step up at the door; a <strong>hatch in the back skirt</strong> empties the container. The roof is a
+  <strong>bitumen-felt build-up</strong>: down-slope rafters carry a <strong>solid tongue-and-groove board
+  deck</strong> (no plywood), then an underlay felt (<em>aluskate</em>) and bitumen shingles
+  (<em>palahuopa</em>) lapped up the slope. The window now sits in the side wall — see the next drawing.</figcaption>
 </figure>
 
 <figure>
@@ -345,9 +358,9 @@
   <rect x="150" y="110" width="10" height="590" fill="#f1ece0" stroke="#cbb" stroke-width="0.8"/>
   <rect x="536" y="220" width="10" height="480" fill="#f1ece0" stroke="#cbb" stroke-width="0.8"/>
 
-  <!-- roof opal band with overhangs -->
-  <polygon points="106,86 612,227 612,239 106,98" fill="#dce8ea" stroke="#2a8" stroke-width="2" opacity="0.85"/>
-  <text x="330" y="120" font-size="12" fill="#1a6" font-weight="bold" transform="rotate(16 330 120)">opal polycarbonate roof</text>
+  <!-- felt roof band with overhangs -->
+  <polygon points="106,86 612,227 612,239 106,98" fill="#3f3f3f" stroke="#222" stroke-width="2"/>
+  <text x="330" y="120" font-size="12" fill="#eee" font-weight="bold" transform="rotate(16 330 120)">bitumen-felt roof (huopakatto)</text>
 
   <!-- vent on the back wall (right edge here) -->
   <rect x="552" y="180" width="12" height="520" fill="#444" stroke="#222"/>
@@ -447,55 +460,69 @@
 </figcaption>
 </figure>
 
-<h2>5. Roof / glazing plan (top view of structure)</h2>
+<h2>5. Roof structure &amp; decking plan (top view)</h2>
 <figure>
 <svg viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg">
-  <!-- 2.0 px/cm. roof 220 wide (440) x 230 long (460). offset 90,40 -->
-  <rect x="90" y="40" width="440" height="460" fill="#dce8ea" stroke="#2a8" stroke-width="1.5" opacity="0.6"/>
-  <!-- walls below dashed: 190x180 => 380x360, inset 15 (30px) sides, 20 front(40)/30 back(60) -->
-  <rect x="120" y="80" width="380" height="360" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="6 4"/>
-  <text x="310" y="460" font-size="11" text-anchor="middle" fill="#666">(walls below — dashed)</text>
-
-  <!-- 3 glazing-bar rafters, down-slope (vertical), panel width ~110: at left(120), center(310), right(500) -->
-  <rect x="114" y="40" width="12" height="460" fill="#b07f43" stroke="#5a3f22"/>
-  <rect x="304" y="40" width="12" height="460" fill="#b07f43" stroke="#5a3f22"/>
-  <rect x="494" y="40" width="12" height="460" fill="#b07f43" stroke="#5a3f22"/>
-  <text x="120" y="32" font-size="11" text-anchor="middle">R1</text>
-  <text x="310" y="32" font-size="11" text-anchor="middle">R2</text>
-  <text x="500" y="32" font-size="11" text-anchor="middle">R3</text>
-
-  <!-- ONE mid purlin, across the slope (horizontal) at mid-length -->
-  <rect x="90" y="258" width="440" height="12" fill="#c49a6c" stroke="#5a3f22"/>
-  <text x="310" y="252" font-size="11" text-anchor="middle" fill="#5a3f22">single mid purlin (only horizontal member)</text>
-
-  <text x="205" y="170" font-size="13" text-anchor="middle" fill="#1a6">PC panel A</text>
-  <text x="405" y="170" font-size="13" text-anchor="middle" fill="#1a6">PC panel B</text>
-
-  <!-- eave closure profiles -->
-  <rect x="90" y="40" width="440" height="10" fill="#7a8" opacity="0.8"/>
-  <rect x="90" y="490" width="440" height="10" fill="#7a8" opacity="0.8"/>
-  <text x="310" y="68" font-size="11" text-anchor="middle" fill="#264">front eave (solid tape under cap)</text>
-  <text x="310" y="482" font-size="11" text-anchor="middle" fill="#264">back eave (vented tape under cap)</text>
-
-  <!-- direction -->
-  <text x="600" y="70" font-size="13" fill="#444">FRONT (high)</text>
-  <text x="600" y="470" font-size="13" fill="#444">BACK (low)</text>
-  <line x1="600" y1="90" x2="600" y2="450" stroke="#444" stroke-width="1" marker-end="url(#arr)"/>
-  <text x="640" y="270" font-size="11" fill="#1a6" transform="rotate(90 640 270)">flutes run down-slope (drain)</text>
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
       <path d="M0,0 L10,5 L0,10 Z" fill="#444"/>
     </marker>
   </defs>
+  <!-- 2.0 px/cm. roof 220 wide (440) x 230 long (460). offset 90,40 -->
+  <!-- felt-shingle field (dark) -->
+  <rect x="90" y="40" width="440" height="460" fill="#4a4a4a" stroke="#222" stroke-width="1.5"/>
+  <!-- shingle courses: horizontal laps stepping up the slope (back low -> front high) -->
+  <g stroke="#2c2c2c" stroke-width="1">
+    <line x1="90" y1="470" x2="530" y2="470"/><line x1="90" y1="440" x2="530" y2="440"/>
+    <line x1="90" y1="410" x2="530" y2="410"/><line x1="90" y1="380" x2="530" y2="380"/>
+    <line x1="90" y1="350" x2="530" y2="350"/><line x1="90" y1="320" x2="530" y2="320"/>
+    <line x1="90" y1="290" x2="530" y2="290"/><line x1="90" y1="260" x2="530" y2="260"/>
+    <line x1="90" y1="230" x2="530" y2="230"/><line x1="90" y1="200" x2="530" y2="200"/>
+    <line x1="90" y1="170" x2="530" y2="170"/><line x1="90" y1="140" x2="530" y2="140"/>
+    <line x1="90" y1="110" x2="530" y2="110"/><line x1="90" y1="80"  x2="530" y2="80"/>
+  </g>
+  <!-- shingle slot tabs offset between courses (a few marks to read as palahuopa) -->
+  <g stroke="#2c2c2c" stroke-width="1">
+    <line x1="150" y1="470" x2="150" y2="455"/><line x1="230" y1="470" x2="230" y2="455"/>
+    <line x1="310" y1="470" x2="310" y2="455"/><line x1="390" y1="470" x2="390" y2="455"/>
+    <line x1="470" y1="470" x2="470" y2="455"/>
+    <line x1="190" y1="440" x2="190" y2="425"/><line x1="270" y1="440" x2="270" y2="425"/>
+    <line x1="350" y1="440" x2="350" y2="425"/><line x1="430" y1="440" x2="430" y2="425"/>
+  </g>
 
-  <g transform="translate(540,150)">
-    <rect x="0" y="0" width="205" height="74" fill="#fff" stroke="#999"/>
-    <rect x="10" y="14" width="20" height="10" fill="#b07f43" stroke="#5a3f22"/>
-    <text x="38" y="23" font-size="12">rafter + wood cap (×3)</text>
-    <rect x="10" y="32" width="20" height="10" fill="#c49a6c" stroke="#5a3f22"/>
-    <text x="38" y="41" font-size="12">mid purlin (×1)</text>
-    <rect x="10" y="50" width="20" height="10" fill="#dce8ea" stroke="#2a8"/>
-    <text x="38" y="59" font-size="12">opal polycarbonate</text>
+  <!-- walls below dashed: 190x180 => 380x360, inset 15 (30px) sides, 20 front(40)/30 back(60) -->
+  <rect x="120" y="80" width="380" height="360" fill="none" stroke="#bbb" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="310" y="428" font-size="11" text-anchor="middle" fill="#ddd">(walls below — dashed)</text>
+
+  <!-- 4 down-slope rafters (under the deck) shown ghosted: at x 120,247,373,500 (~600 OC) -->
+  <g fill="none" stroke="#c49a6c" stroke-width="6" stroke-dasharray="10 6" opacity="0.85">
+    <line x1="120" y1="40" x2="120" y2="500"/>
+    <line x1="247" y1="40" x2="247" y2="500"/>
+    <line x1="373" y1="40" x2="373" y2="500"/>
+    <line x1="500" y1="40" x2="500" y2="500"/>
+  </g>
+  <text x="247" y="34" font-size="10" text-anchor="middle" fill="#7a5a2a">rafters 45×120 @ ~600 OC (down-slope, under deck)</text>
+
+  <!-- direction of lay -->
+  <text x="596" y="70" font-size="13" fill="#444">FRONT (high)</text>
+  <text x="596" y="474" font-size="13" fill="#444">BACK (low)</text>
+  <line x1="600" y1="452" x2="600" y2="92" stroke="#444" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="642" y="270" font-size="11" fill="#333" transform="rotate(90 642 270)">shingles lapped up-slope (start at low eave)</text>
+
+  <!-- eave / edge callouts -->
+  <text x="310" y="62" font-size="11" text-anchor="middle" fill="#eee">high (front) edge — felt wrapped over edge trim</text>
+  <text x="310" y="492" font-size="11" text-anchor="middle" fill="#eee">low (back) eave — starter strip + drip edge</text>
+
+  <g transform="translate(556,150)">
+    <rect x="0" y="0" width="196" height="92" fill="#fff" stroke="#999"/>
+    <rect x="10" y="12" width="18" height="10" fill="#4a4a4a" stroke="#222"/>
+    <text x="34" y="21" font-size="11">shingles (palahuopa)</text>
+    <rect x="10" y="30" width="18" height="10" fill="#7a6a52" stroke="#5a3f22"/>
+    <text x="34" y="39" font-size="11">underlay (aluskate)</text>
+    <rect x="10" y="48" width="18" height="10" fill="#d2b58a" stroke="#5a3f22"/>
+    <text x="34" y="57" font-size="11">T&amp;G deck — no plywood</text>
+    <line x1="10" y1="72" x2="28" y2="72" stroke="#c49a6c" stroke-width="6" stroke-dasharray="6 4"/>
+    <text x="34" y="75" font-size="11">rafter 45×120 (×4)</text>
   </g>
 
   <line x1="90" y1="20" x2="530" y2="20" stroke="#0066aa" stroke-width="1"/>
@@ -504,13 +531,24 @@
   <text x="310" y="14" font-size="12" text-anchor="middle" fill="#0066aa">roof 220 cm wide (incl. 15 cm overhang each side)</text>
 </svg>
 <figcaption>
-  Roof structure. Three slim <strong>down-slope rafters</strong> (R1–R3, ~110 cm bays), each capped with a
-  <strong>wooden batten</strong> screwed over the sheet edges (no aluminium), carry two polycarbonate panels;
-  one <strong>mid purlin</strong> halves the down-slope span so 16 mm sheet is safe under snow. Want zero
-  horizontal members? Drop the purlin and use 32 mm sheet instead. Flutes run down-slope; solid tape seals
-  the high end, vented tape the low end, each tucked under a slim wood end-cap.
+  Roof structure — a felt roof needs a <strong>continuous, stiff deck</strong>. Four <strong>down-slope
+  rafters</strong> (45×120 at ~600 mm centres, ghosted here) carry a <strong>solid tongue-and-groove board
+  deck</strong> (28×120 <em>raakaponttilauta</em>) laid <em>across</em> the rafters — this replaces the
+  plywood a felt roof normally sits on. Over the deck goes an <strong>underlay felt (aluskate)</strong>,
+  then <strong>bitumen shingles (palahuopa)</strong> nailed and lapped <em>up</em> the slope, starting from
+  a doubled <strong>starter strip at the low (back) eave</strong>. The 15.5° pitch is well within the range
+  for shingles (min ≈ 1:5). The high front edge and the two verges are finished by wrapping the felt over a
+  slim edge trim.
 </figcaption>
 </figure>
+<div class="note">
+  <strong>Losing the daylight roof — plan the light.</strong> The old polycarbonate roof lit the room from
+  above; a felt roof is opaque, so daylight now comes only from the side window. Keep that window (a
+  reclaimed cottage sash suits the look), and consider one of: a <strong>second small window</strong> in the
+  door or front wall, a <strong>glazed or louvred strip above the door</strong>, or a single
+  <strong>clear/opal polycarbonate rooflight panel</strong> let into one deck bay if you still want a little
+  light from above while keeping the felt roof everywhere else.
+</div>
 
 <h2>6. Wall framing (stud layout)</h2>
 <p>
@@ -931,26 +969,30 @@
 <tr><td>Gate latch + handle set; hook &amp; eye</td><td>—</td><td>—</td><td>1 + 1</td><td>Latch inside + outside; interior privacy hook</td></tr>
 </table>
 
-<h3>Roof — the clear part (all-wood fixing)</h3>
+<h3>Roof — traditional bitumen felt (huopakatto, no plywood)</h3>
 <table>
 <tr><th>Item</th><th>Spec</th><th>Qty</th><th>Use</th></tr>
-<tr><td><strong>Twin-wall polycarbonate sheet</strong></td><td>16 mm <strong>opal</strong> (white-translucent), ≈ 105 × 230 cm</td><td>2</td><td>The roof, two panels; flutes run down-slope. <em>(32 mm opal would let you drop the purlin.)</em></td></tr>
-<tr><td>Rafters</td><td>45 × 120 mm</td><td>2.4 m</td><td>3</td><td>Down-slope, ~110 cm bays — the sheets rest on these</td></tr>
-<tr><td>Mid purlin</td><td>45 × 95 mm</td><td>2.2 m</td><td>1</td><td>Across mid-depth (omit if using 32 mm sheet)</td></tr>
-<tr><td><strong>Wooden cap battens</strong> (planed)</td><td>45 × 45 mm</td><td>2.4 m</td><td>3</td><td>Screwed over each rafter on top of the sheet edges — these replace the aluminium glazing bars</td></tr>
-<tr><td>EPDM / closed-cell foam gasket tape</td><td>~20 mm wide roll</td><td>2</td><td>Between sheet and wood — on each rafter and under each cap batten; seals &amp; lets the sheet move</td></tr>
-<tr><td>Sheet-end tape (solid + vented anti-dust)</td><td>1 roll each</td><td>1 each</td><td>Solid on the high end, vented on the low end of the flutes</td></tr>
-<tr><td>Wooden end-cap batten</td><td>22 × 70 mm</td><td>~2.2 m</td><td>2</td><td>Slim wood cover over the taped top &amp; bottom sheet ends</td></tr>
-<tr><td>Stainless gasketed roofing screws (EPDM washer)</td><td>For wood</td><td>1 box</td><td>Through the cap battens into the rafters — oversize the sheet's clearance hole</td></tr>
-<tr><td><strong>Wooden drip / fascia board</strong> (bevelled)</td><td>22 × 95 mm</td><td>~2.2 m</td><td>1</td><td>Throws water off the low (back) eave</td></tr>
+<tr><td>Rafters</td><td>45 × 120 mm</td><td>2.4 m</td><td>4</td><td>Down-slope, ~600 mm centres — carry the board deck</td></tr>
+<tr><td><strong>T&amp;G roof board deck</strong> (<em>raakaponttilauta / umpilaudoitus</em>)</td><td>28 × 120 mm</td><td>2.4 m</td><td>18</td><td><strong>Solid deck in place of plywood</strong> — laid across the rafters, tight-jointed</td></tr>
+<tr><td><strong>Underlay felt</strong> (<em>aluskate</em>, bitumen)</td><td>1 m roll, ≈ 15 m²</td><td>1</td><td>Over the whole deck, lapped up-slope, before the shingles</td></tr>
+<tr><td><strong>Bitumen shingles</strong> (<em>palahuopa / kattohuopalaatta</em>)</td><td>Pack ≈ 3 m²/pack; ≈ 5 m² of roof</td><td>2 packs</td><td>The visible roof; nailed and lapped up the slope <em>(roll felt + triangle battens, </em>kolmiorimahuopa<em>, is the traditional alternative)</em></td></tr>
+<tr><td>Eaves / starter strip</td><td>Cut from a shingle course or an eaves felt</td><td>1</td><td>Doubled first course at the low (back) eave</td></tr>
+<tr><td>Ridge / hip shingles</td><td>Cut from shingle stock or a matching roll</td><td>—</td><td>Fold over the two verges &amp; the high front edge</td></tr>
+<tr><td>Felt nails (galvanised, large flat head)</td><td>~25–30 mm</td><td>1 kg</td><td>Fix underlay &amp; shingles to the board deck</td></tr>
+<tr><td>Bitumen shingle adhesive / mastic</td><td>Cartridge or tin</td><td>1–2</td><td>Seal shingle tabs, verges, edges &amp; the vent-pipe collar</td></tr>
+<tr><td>Eaves drip edge (metal) — <em>optional</em></td><td>Galvanised/coated steel angle</td><td>~2.2 m</td><td>Under the underlay at the low eave to throw water clear (or use a bevelled wood drip board)</td></tr>
+<tr><td>Vent-pipe roof collar / flashing</td><td>Bitumen or EPDM, 75 mm</td><td>1</td><td>Only if the Biolan vent is routed through the roof rather than up the back wall</td></tr>
+<tr><td><strong>Wooden fascia / edge boards</strong></td><td>22 × 120 mm</td><td>2.4 m</td><td>5</td><td>Close the deck edge at eaves &amp; verges; the felt wraps over them</td></tr>
 </table>
 <div class="note">
-  <strong>All-wood glazing — no aluminium.</strong> The polycarbonate sits on the wooden rafters over a strip
-  of EPDM/foam gasket tape; a <strong>planed wood cap batten</strong> is then screwed down over each rafter
-  (gasket tape under it too) to clamp and weatherproof the sheet edges and the centre joint. Sheet ends get
-  flute tape tucked under a slim wood end-cap, and a bevelled wood board forms the eave drip. Use stainless
-  gasketed screws, <strong>drill the sheet's screw holes oversize</strong> and don't over-tighten, so the
-  polycarbonate can expand and contract under the wood without buckling.
+  <strong>No plywood — a solid board deck instead.</strong> A felt roof needs a continuous, stiff surface, and
+  the usual choice is plywood or OSB. To keep this build all-solid-timber, deck it with
+  <strong>28 × 120 mm tongue-and-groove roof board</strong> (<em>raakaponttilauta</em>) run tight across the
+  rafters — every board end must land on a rafter. Roll the <strong>underlay felt</strong> up-slope with
+  generous laps, then nail the <strong>bitumen shingles</strong> from a doubled starter course at the low
+  (back) eave upward, folding the felt over the edge boards at the verges and the high front edge. At the
+  15.5° pitch (≈ 1:3.6) shingles sit comfortably above their ~1:5 minimum; if you prefer the old roll-felt look,
+  <em>kolmiorimahuopa</em> (roll felt over triangular battens) works on the same deck.
 </div>
 
 <h3>Ventilation, fasteners, finish</h3>
@@ -981,8 +1023,8 @@
   <li><strong>Site &amp; footings (see §7).</strong> Level the 9 pilariharkko in a 3 × 3 grid on crushed stone/rock. Set short PT posts on each, <strong>cut to bring the whole frame level</strong> (and to the +48 cm floor height — the blocks + frame do most of the lift, so posts are only ~5–10 cm).</li>
   <li><strong>Floor frame &amp; deck.</strong> Run 3 PT bearers front-to-back on the posts, then PT joists at 400 mm OC across them with a rim joist all round; frame the toilet opening (back-left) with doubled headers. Deck with the thermowood. <strong>Dry-fit the Biolan, mark and cut the opening</strong> to its template so the seat lands at ~48–50 cm.</li>
   <li><strong>Walls.</strong> Frame four panels (heights from the raised floor): front &amp; back rectangular; side walls' top plate cut on the 15.5° slope (front 220 → back 170). Frame the <strong>side-wall window opening</strong> (in the right wall), sill ~85 cm, toward the back at the seat's depth. Stand, plumb, screw corners, add the lapping top plate.</li>
-  <li><strong>Roof structure.</strong> Set the 3 rafters (45×120) front-to-back at ~110 cm, plus the single mid purlin; tie down with straps. Overhang ~20 front, ~30 back, 15 each side.</li>
-  <li><strong>Glazing (all wood).</strong> Run EPDM/foam gasket tape along each rafter, lay the two PC panels flutes-down-slope, then screw a <strong>planed wood cap batten</strong> over each rafter (gasket tape under it, stainless gasketed screws, sheet holes oversize). Tape the sheet ends (solid high, vented low) under slim wood end-caps; fit the wooden drip board. Don't over-tighten — let the sheet move.</li>
+  <li><strong>Roof structure &amp; deck.</strong> Set the 4 rafters (45×120) front-to-back at ~600 mm; tie down with straps. Overhang ~20 front, ~30 back, 15 each side. Then lay the <strong>solid T&amp;G board deck</strong> (28×120) tight across the rafters — no plywood — landing every board end on a rafter. Fit the wooden fascia/edge boards at eaves and verges.</li>
+  <li><strong>Felt roof (huopakatto).</strong> Roll the <strong>underlay felt (aluskate)</strong> up the slope over the whole deck with generous laps and nail it off. Lay a doubled <strong>starter course at the low (back) eave</strong>, then nail the <strong>bitumen shingles (palahuopa)</strong> course by course up to the high front edge, staggering the tabs. Fold the felt over the edge boards at the two verges and the high edge; bed those laps and the tabs in shingle mastic. If the Biolan vent goes through the roof, seal it with a pipe collar (otherwise it runs up the back wall).</li>
   <li><strong>Window, skirt &amp; hatch.</strong> Bed the side-wall window, seal and trim it. Clad the ~48 cm under-floor skirt down to the ground and build the hinged access hatch (with insect screen) into the back skirt.</li>
   <li><strong>Cladding &amp; trim.</strong> Vertical 22×120 boards, then 22×45 battens over the gaps. White corner boards, door &amp; window surrounds, fascia. Seal the wall-to-roof junction.</li>
   <li><strong>Door (see §4).</strong> Build the ledged-and-braced door from seven 22×120 boards; hang on three strap hinges to swing outward; latch, privacy hook, cut the heart.</li>
@@ -992,14 +1034,18 @@
 </ol>
 
 <div class="warn">
-  <strong>Two things to plan for with an all-clear roof:</strong>
+  <strong>Three things to plan for with the felt roof:</strong>
   <ul style="margin:.4rem 0 0;">
-    <li><strong>Heat &amp; glare — handled.</strong> You've specced <strong>opal</strong> (white-translucent)
-      sheet: it floods the room with soft daylight but diffuses the sun, cuts glare and heat, and gives
-      overhead privacy — the right call with kids. Still give it good cross-flow on hot days via the wall
-      vents + open door.</li>
-    <li><strong>Condensation.</strong> Twin-wall drains internally only if the flutes run down-slope and the low
-      end is vented (hence the vented tape on the back edge). Keep that orientation.</li>
+    <li><strong>Daylight.</strong> A felt roof is opaque, so the bright-from-above quality of the old
+      polycarbonate roof is gone. Lean on the side window and, if you want, add a second small window (door or
+      front wall) or a single clear/opal rooflight panel in one deck bay — see the note under §5.</li>
+    <li><strong>A stiff, dry deck.</strong> Shingles telegraph every dip, so lay the T&amp;G boards tight with
+      end-joints landing on rafters, and let the timber dry before felting. On this uninsulated, open-ceilinged
+      hut there is no warm-side moisture driving into the deck, so a simple cold deck is fine — just keep the
+      wall vents open for through-flow.</li>
+    <li><strong>Edges &amp; low pitch.</strong> At 15.5° the eaves and verge laps do the work — double the
+      starter course, wrap and mastic the felt over the edge boards, and (optionally) tuck a metal drip edge
+      under the underlay at the low eave so wind-driven rain can't track back under the shingles.</li>
   </ul>
 </div>
 
