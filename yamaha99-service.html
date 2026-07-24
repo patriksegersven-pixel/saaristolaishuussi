@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yamaha 9.9 — annual service (årlig service), ~15-year-old outboard</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 980px; margin: 2rem auto; padding: 0 1rem; color:#222; }
+  h1 { border-bottom: 2px solid #444; padding-bottom: .3rem; }
+  h2 { margin-top: 2.5rem; border-bottom: 1px solid #bbb; padding-bottom: .2rem; }
+  h3 { margin-top: 1.6rem; }
+  figure { margin: 1.2rem 0 2rem; }
+  figcaption { font-size: .9rem; color: #555; margin-top: .4rem; }
+  svg { border: 1px solid #ccc; background: #fafafa; width: 100%; height: auto; max-height: 78vh; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  th, td { border: 1px solid #ddd; padding: .35rem .55rem; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; }
+  .note { background:#fffce8; border-left:4px solid #e7c000; padding:.6rem .8rem; margin:1rem 0; font-size:.92rem; }
+  .warn { background:#fdeaea; border-left:4px solid #d33; padding:.6rem .8rem; margin:1rem 0; font-size:.92rem; }
+  .ok { background:#eaf6ea; border-left:4px solid #3a8a3a; padding:.6rem .8rem; margin:1rem 0; font-size:.92rem; }
+  @media print { svg { max-height: none; } body { max-width: none; } }
+</style>
+</head>
+<body>
+
+<h1>Yamaha 9.9 — annual service (<em>årlig service</em>)</h1>
+<p>
+  Annual service plan for a <strong>Yamaha 9.9 hp outboard, roughly 15 years old</strong> (≈ 2010–2012).
+  In Europe an engine of that vintage is almost certainly the <strong>four-stroke F9.9 / FT9.9 (High Thrust)</strong>
+  twin — the two-strokes disappeared from EU sale around 2007. Everything below is written for the
+  four-stroke; a note at the end covers the two-stroke differences in case yours is one.
+  This is the classic archipelago workhorse (<em>aktersnurra</em>): simple, robust, and happy to run for
+  decades <strong>if</strong> the oil, gear oil and impeller are kept fresh.
+</p>
+
+<div class="note">
+  <strong>Check the model plate first.</strong> The plate on the transom clamp bracket gives the exact model
+  code (e.g. <code>F9.9J</code>, <code>FT9.9G</code>) and serial number. Part numbers for the impeller kit,
+  oil filter, thermostat and anodes vary by model code — quote the code when buying parts, and treat the part
+  numbers in this page as typical examples, not gospel.
+</div>
+
+<div class="warn">
+  <strong>Safety.</strong> Pull the kill-switch lanyard and disconnect the spark-plug caps (and battery, if
+  electric start) before turning the flywheel or working near the propeller. Never run the engine without
+  cooling water — even a few seconds dry ruins the impeller. Petrol and oily rags: keep away from flame,
+  dispose of used oil at a collection point (<em>problemavfall</em>).
+</div>
+
+<h2>1. Service points at a glance</h2>
+<figure>
+<svg viewBox="0 0 660 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c33"/>
+    </marker>
+  </defs>
+
+  <!-- water line -->
+  <line x1="20" y1="415" x2="640" y2="415" stroke="#5b9bd5" stroke-width="1.5" stroke-dasharray="8 5"/>
+  <text x="28" y="432" font-size="11" fill="#5b9bd5">waterline</text>
+
+  <!-- cowling (top) -->
+  <path d="M255,60 Q250,38 285,32 L390,26 Q430,26 438,55 L446,128 Q447,150 425,152 L272,152 Q252,150 253,128 Z"
+        fill="#dfe3e8" stroke="#333" stroke-width="2"/>
+  <text x="350" y="80" font-size="12" text-anchor="middle" fill="#444">cowling</text>
+  <text x="350" y="96" font-size="10" text-anchor="middle" fill="#666">(plugs, oil, fuel filter under here)</text>
+
+  <!-- bottom cowl / pan -->
+  <path d="M253,152 L446,152 L440,196 Q400,208 350,208 Q300,208 260,196 Z" fill="#c9cfd6" stroke="#333" stroke-width="1.5"/>
+
+  <!-- transom bracket -->
+  <path d="M238,170 L253,160 L258,215 L232,225 Z" fill="#b6bcc4" stroke="#333" stroke-width="1.5"/>
+  <rect x="205" y="168" width="34" height="62" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="196" y="160" font-size="10" fill="#444">clamp bracket</text>
+
+  <!-- mid section leg -->
+  <path d="M318,208 L382,208 L378,388 L322,388 Z" fill="#d7dbe0" stroke="#333" stroke-width="1.5"/>
+
+  <!-- cooling telltale -->
+  <circle cx="392" cy="230" r="4" fill="#5b9bd5" stroke="#226"/>
+  <path d="M396,232 Q412,244 416,262" fill="none" stroke="#5b9bd5" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- anti-cavitation plate + lower unit -->
+  <path d="M300,388 L400,388 L404,396 L296,396 Z" fill="#c9cfd6" stroke="#333" stroke-width="1.5"/>
+  <path d="M322,396 L378,396 Q400,420 398,448 Q396,478 360,486 L330,486 Q302,478 300,448 Q298,420 322,396 Z"
+        fill="#d7dbe0" stroke="#333" stroke-width="2"/>
+  <!-- skeg -->
+  <path d="M330,486 L344,486 L338,538 L326,534 Z" fill="#c9cfd6" stroke="#333" stroke-width="1.5"/>
+  <!-- water intake -->
+  <g stroke="#226" stroke-width="1.5">
+    <line x1="310" y1="430" x2="326" y2="430"/><line x1="308" y1="438" x2="324" y2="438"/><line x1="308" y1="446" x2="324" y2="446"/>
+  </g>
+
+  <!-- propeller -->
+  <ellipse cx="404" cy="446" rx="10" ry="34" fill="#b6bcc4" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="404" cy="446" rx="4" ry="12" fill="#8f959d" stroke="#333"/>
+
+  <!-- callouts -->
+  <g font-size="11.5" fill="#c33">
+    <line x1="490" y1="52" x2="415" y2="42" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="496" y="48">1 · spark plugs, valve cover</text>
+    <text x="496" y="62" font-size="10" fill="#a33">gap 0.9 mm, check leaks</text>
+
+    <line x1="490" y1="110" x2="448" y2="112" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="496" y="106">2 · engine oil + filter</text>
+    <text x="496" y="120" font-size="10" fill="#a33">10W-30 / 10W-40 FC-W, ≈ 0.8–1.0 L</text>
+
+    <line x1="120" y1="118" x2="253" y2="130" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="30" y="106">3 · fuel filter, lines,</text>
+    <text x="30" y="120">primer bulb, carb bowl</text>
+
+    <line x1="120" y1="200" x2="203" y2="196" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="30" y="190">4 · grease clamp screws,</text>
+    <text x="30" y="204">tilt &amp; swivel points</text>
+
+    <line x1="490" y1="238" x2="400" y2="232" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="496" y="234">5 · cooling telltale (<em>pissern</em>)</text>
+    <text x="496" y="248" font-size="10" fill="#a33">must show a steady jet when running</text>
+
+    <line x1="150" y1="330" x2="320" y2="330" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="52" y="326">6 · anodes — leg &amp;</text>
+    <text x="52" y="340">cavitation plate</text>
+
+    <line x1="150" y1="440" x2="306" y2="438" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="40" y="430">7 · water pump impeller</text>
+    <text x="40" y="444" font-size="10" fill="#a33">behind this housing — every 2–3 yrs</text>
+
+    <line x1="150" y1="482" x2="300" y2="470" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="52" y="486">8 · gear oil, 2 screws</text>
+    <text x="52" y="500" font-size="10" fill="#a33">drain low, vent high · ≈ 250 ml</text>
+
+    <line x1="500" y1="490" x2="412" y2="462" stroke="#c33" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="506" y="486">9 · propeller off:</text>
+    <text x="506" y="500" font-size="10" fill="#a33">fishing line check, grease shaft</text>
+  </g>
+</svg>
+<figcaption>Side view with the nine annual service points. Numbers match the checklist below. The impeller (7)
+sits in the water-pump housing at the top of the gearbox — the whole lower unit drops off to reach it.</figcaption>
+</figure>
+
+<h2>2. Annual checklist</h2>
+<table>
+  <tr><th>#</th><th>Task</th><th>Interval</th><th>Notes for a 15-year-old engine</th></tr>
+  <tr><td>1</td><td>Spark plugs — inspect / replace, gap 0.9 mm</td><td>Yearly (replace every 2 yrs / 200 h)</td>
+      <td>Light brown insulator = healthy. Oily or sooty plugs on an old engine → check carburation and compression.</td></tr>
+  <tr><td>2</td><td>Engine oil + oil filter</td><td>Yearly / 100 h</td>
+      <td>4-stroke marine oil 10W-30 or 10W-40 (NMMA FC-W). Sump ≈ 0.8 L, ~1.0 L with filter. Milky oil = water intrusion — investigate before launching.</td></tr>
+  <tr><td>3</td><td>Fuel system: filter, lines, primer bulb, carb float bowl drain</td><td>Yearly</td>
+      <td>15-year-old rubber hoses and the primer bulb harden and crack — replace on condition. Drain the float bowl; alkylate petrol (<em>alkylatbensin</em>) keeps carbs clean over winter.</td></tr>
+  <tr><td>4</td><td>Grease all points: clamp screws, tilt tube, swivel bracket, steering, throttle/shift linkage</td><td>Yearly</td>
+      <td>Water-resistant marine grease in every nipple and thread. A seized tilt tube is the classic neglect failure on old clamp-on engines.</td></tr>
+  <tr><td>5</td><td>Cooling: check telltale jet, flush with fresh water</td><td>Every use / yearly flush</td>
+      <td>Weak or hot jet → impeller or blocked passages. On a 15-year-old engine pop the thermostat out and de-scale it (vinegar bath) — cheap insurance.</td></tr>
+  <tr><td>6</td><td>Sacrificial anodes — leg, cavitation plate (and internal block anode if fitted)</td><td>Yearly, replace at ~50 % wasted</td>
+      <td>Never paint anodes. In brackish Baltic water they last longer than in the ocean, but 15 years of "still looks fine" usually means they're passivated — scuff bright or replace.</td></tr>
+  <tr><td>7</td><td>Water pump impeller (+ housing wear plate, gaskets)</td><td>Every 2–3 yrs — or yearly check</td>
+      <td>THE critical item. If its age is unknown, replace now. Rubber takes a set and vanes crack from age even with few hours.</td></tr>
+  <tr><td>8</td><td>Gear oil (lower unit)</td><td>Yearly / 100 h</td>
+      <td>Hypoid gear oil SAE 90 (GL-4/5), ≈ 250 ml. Milky/grey oil = water past the prop-shaft seal (fishing line!) — pressure-test and reseal before it eats the gears.</td></tr>
+  <tr><td>9</td><td>Propeller off: check for line around the shaft seal, inspect blades, grease spline, new split pin</td><td>Yearly</td>
+      <td>Dinged blades vibrate and wear the bearings. Grease the spline so the prop comes off next year too.</td></tr>
+  <tr><td>—</td><td>Valve clearances (intake ≈ 0.15–0.25 mm, exhaust ≈ 0.20–0.30 mm cold — see your manual)</td><td>Every 200 h / on a milestone service</td>
+      <td>Worth doing once on a 15-year-old engine if never done; hard starting and low idle power are the symptoms.</td></tr>
+  <tr><td>—</td><td>Compression test</td><td>When curious / on purchase</td>
+      <td>Cylinders should read high and within ~10 % of each other — a quick health certificate for an old engine.</td></tr>
+  <tr><td>—</td><td>Starter cord, kill switch, cowling seal, steering friction</td><td>Yearly look-over</td>
+      <td>Fray-check the cord, test the kill switch every spring — it is the one part that must never fail.</td></tr>
+</table>
+
+<h2>3. Consumables &amp; parts to buy</h2>
+<table>
+  <tr><th>Item</th><th>Spec / typical part</th><th>Qty</th></tr>
+  <tr><td>Engine oil</td><td>4-stroke FC-W 10W-30 (e.g. Yamalube 4M)</td><td>1 L</td></tr>
+  <tr><td>Oil filter</td><td>Small spin-on, per model code (some F9.9 have a strainer only — check)</td><td>1</td></tr>
+  <tr><td>Gear oil</td><td>Hypoid SAE 90, GL-4/5 (pump bottle or tube with nozzle)</td><td>350 ml bottle</td></tr>
+  <tr><td>Gear-oil screw gaskets</td><td>Small fibre/alu washers for drain + vent screws</td><td>2</td></tr>
+  <tr><td>Spark plugs</td><td>NGK per model plate (commonly DPR6EA-9 on the F9.9/FT9.9 twin), gap 0.9 mm</td><td>2</td></tr>
+  <tr><td>Impeller kit</td><td>Impeller + housing gasket/O-ring + wear plate, per model code</td><td>1 kit</td></tr>
+  <tr><td>Anodes</td><td>Leg + cavitation-plate anode per model code (zinc for salt/brackish)</td><td>as worn</td></tr>
+  <tr><td>Fuel filter</td><td>Small inline element under the cowling</td><td>1</td></tr>
+  <tr><td>Marine grease</td><td>Water-resistant, with grease gun for the nipples</td><td>1 tube</td></tr>
+  <tr><td>Split pin (prop)</td><td>Stainless, correct diameter — never reuse the old one</td><td>1–2</td></tr>
+  <tr><td>Fuel stabiliser <em>or</em> alkylate petrol</td><td>For winter lay-up</td><td>—</td></tr>
+</table>
+
+<h2>4. Step by step</h2>
+
+<h3>4.1 Engine oil (do it warm)</h3>
+<ol>
+  <li>Run the engine to temperature in a water butt or on muffs — warm oil drains fully.</li>
+  <li>Engine upright and level. Remove the dipstick, undo the drain screw low on the sump (or use a vacuum
+      pump down the dipstick tube if access is poor on the bracket).</li>
+  <li>Drain into a tray, new washer on the drain screw, snug it — it's a small thread, don't gorilla it.</li>
+  <li>Swap the oil filter if fitted (light smear of oil on the new gasket, hand-tight + ¾ turn).</li>
+  <li>Fill ≈ 0.8 L, wait a minute, check the dipstick, top to the upper mark. Run briefly, re-check, look for leaks.</li>
+</ol>
+
+<h3>4.2 Gear oil — fill from the bottom</h3>
+<ol>
+  <li>Engine upright, tray underneath. Open the <strong>vent screw</strong> (upper, on the side of the gear case)
+      first, then the <strong>drain screw</strong> (lowest point, near the skeg).</li>
+  <li>Inspect what comes out: honey-brown = good; grey/milky = water in the oil; glitter on the magnetic
+      drain screw = gear wear. Water → renew the prop-shaft seal (or have it done) before the season.</li>
+  <li>Pump new SAE 90 hypoid oil <strong>in through the bottom drain hole</strong> until it runs out of the
+      upper vent hole with no bubbles.</li>
+  <li>New washers: close the <strong>vent first</strong>, then swap the pump nozzle out for the drain screw
+      quickly and close it. The vacuum holds the oil in while you swap.</li>
+</ol>
+
+<h3>4.3 Water pump impeller</h3>
+<ol>
+  <li>Shift into <strong>forward gear</strong> (you'll need the shift rod aligned for reassembly). Undo the
+      lower-unit bolts (and the shift-rod connector per your model) and drop the leg straight down.</li>
+  <li>Unbolt the water-pump housing on top of the gearbox; slide housing and impeller up off the driveshaft. Note the drive key/pin.</li>
+  <li>Fit the new impeller with a little soap or glycerine; rotate the driveshaft <strong>clockwise</strong>
+      while pressing the housing down so the vanes bend the right way. New gaskets/O-ring and wear plate from the kit.</li>
+  <li>Refit the leg: grease the driveshaft splines (<strong>not the top face</strong> — grease there can hold the
+      shaft proud and load the crank), align driveshaft, water tube and shift rod, bolt up.</li>
+  <li>Test in a butt/on muffs immediately: strong telltale jet within seconds, or stop and re-check.</li>
+</ol>
+
+<h3>4.4 Fuel system</h3>
+<ol>
+  <li>Replace the inline fuel filter element; check the sediment bowl if fitted.</li>
+  <li>Squeeze-test the primer bulb and flex all hoses — any cracking, stiffness or fuel smell → replace hose
+      with marine-grade fuel line and new clamps. 15-year-old hose owes you nothing.</li>
+  <li>Drain the carburettor float bowl via its drain screw (fuel tap off / line disconnected, engine off).
+      Gum and green varnish here explain poor idling — a carb clean with new bowl gasket fixes most of it.</li>
+  <li>Check the tank: water in the bottom, rusty cap seal, blocked vent. Fresh fuel every season; alkylate
+      petrol if the engine sits for long spells.</li>
+</ol>
+
+<h3>4.5 Grease, anodes, propeller</h3>
+<ol>
+  <li>Grease gun on every nipple: swivel bracket, tilt tube, steering pivot. Unscrew the transom clamp screws
+      fully, grease the threads, run them back.</li>
+  <li>Anodes: remove, wire-brush the mating face bright, refit — or replace if ≥ half gone. Good metal-to-metal
+      contact is the whole point.</li>
+  <li>Prop off: straighten and pull the split pin, nut off, prop off. Unwind any fishing line at the seal
+      (if you find line, watch the next gear-oil change for milkiness). Grease the spline, refit, torque the
+      castle nut snug and fit a <strong>new</strong> split pin.</li>
+</ol>
+
+<h2>5. End of season (<em>vinterförvaring</em>)</h2>
+<ul>
+  <li>Flush with fresh water 5–10 min (muffs or butt).</li>
+  <li>Run the carb dry (fuel tap off / line disconnected, let it stall) <em>or</em> fill with stabilised/alkylate fuel — pick one and be consistent.</li>
+  <li>Change engine oil and gear oil <strong>in autumn</strong>, not spring: acids and any water then don't sit in the engine all winter.</li>
+  <li>Pull the plugs, a small squirt of fogging oil or engine oil in each cylinder, turn the flywheel a few times by hand, plugs back loosely.</li>
+  <li>Store <strong>upright</strong> (or on the correct side per the manual — never tilt-side down, oil finds the cylinders), somewhere dry. The self-draining cooling system needs no antifreeze if stored upright and drained.</li>
+  <li>Battery (electric start): store charged and cool, trickle-charge over winter.</li>
+</ul>
+
+<div class="ok">
+  <strong>Spring is then trivial:</strong> plugs in and torqued, fresh fuel, battery on, check the telltale on
+  first start — and the season begins.
+</div>
+
+<h2>6. If it turns out to be a two-stroke</h2>
+<p>
+  A 9.9 two-stroke (pre-≈2007, or grey-import) skips the engine-oil and valve items entirely: no sump, no oil
+  filter, no valve clearances. Instead: premix 1:50 with TC-W3 outboard oil (or keep the autolube tank clean and
+  bled, if fitted), decarbonise the exhaust ports if power fades, and be extra fussy about the carburettor —
+  two-strokes forgive dirty fuel even less. Gear oil, impeller, anodes, greasing, propeller and lay-up are
+  exactly as above.
+</p>
+
+<div class="note">
+  <strong>Rough budget (DIY):</strong> oil + gear oil + plugs + filters + washers ≈ 40–60 €; impeller kit
+  ≈ 30–50 €; anodes ≈ 15–30 €. A dealer annual service on a 9.9 typically runs 200–350 € — the work above is
+  2–4 unhurried hours on a pair of sawhorses at the cabin.
+</div>
+
+</body>
+</html>
