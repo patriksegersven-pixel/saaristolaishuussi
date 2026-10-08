@@ -23,8 +23,8 @@ This session's network egress policy **blocked every registry host**:
 
 | Name | Meaning | YTJ | Trademark | Swedish AB | .fi | .com | .ai | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| **Scova** | IT *scovare* "to unearth / ferret out": finding the hidden growth | manual; no hit (nearest *Skavo Oy*, unrelated) | manual; none found | manual; none found | free* | taken | taken (no visible product) | **#1** |
-| **Fiuta** | IT *fiutare* "to sniff out"; *fiuto* = business flair | manual; no hit | manual; none found (nearest FIYTA, watches) | manual; none found | free* | taken | free* | Shortlist |
+| **Scova** | IT *scovare* "to unearth / ferret out": finding the hidden growth | manual; no hit (nearest *Skavo Oy*, unrelated) | manual; none found | manual; none found | free* | taken | taken: live site (likely an active startup) | Demoted |
+| **Fiuta** | IT *fiutare* "to sniff out"; *fiuto* = business flair | manual; no hit | manual; none found (nearest FIYTA, watches) | manual; none found | free* | taken (parked at NameBright, likely buyable) | free* | **#1** |
 | **Scruta** | IT *scrutare* "to scrutinise"; reads as "scrutiny" in EN | manual; no hit | ⚠ *Scrut Automation* (compliance SaaS, class 42), 1 letter | manual; none found | free* | taken | free* | Risky |
 | **Margina** | "margin": profit-first growth (IT *margine*, SV *marginal*) | ⚠ crowded stem: *Marginum Oy*, *Margeia Oy*, *Margin Investments Oy* | manual; none found | manual; none found | free* | taken | free* | Risky (PRH) |
 | **Svela** | IT *svelare* "to unveil" | manual; *Svola Oy* (salon) only | manual; none found | ⚠ identical *SveLa AB* 556525-3571 (apparently dormant) | free* | taken | taken | Risky (SE) |
@@ -50,10 +50,11 @@ This session's network egress policy **blocked every registry host**:
 - **Finnish-root conflicts:** Nousio (Nousua Oy, software, Espoo), Kipino (Kipinä).
 
 ## Recommendation
-**Scova**: five letters, said the same way in Finnish, Swedish, English and Italian ("SKO-va"). It means
-"unearth" in Italian, and to English ears it sounds like *scout* or *discover*. No company or brand found using it.
-Tagline: *"Scova: unearth the growth in your data."*
+**Fiuta**: Italian *fiutare*, "to sniff out"; *fiuto* is the Italian word for business flair. Five letters, said the same way
+everywhere ("FYOO-ta"). No company or brand found, .fi and .ai not delegated, and the .com is parked at a domain marketplace.
+Tagline: *"Fiuta: a nose for profitable growth."*
 
-Runner-up: **Fiuta**, Italian for "sniffs out", with .ai free.
+Scova was the previous #1. It was demoted because scova.ai serves a live site (IONOS DNS, A record 185.158.133.1,
+believed to be app-builder hosting), so there is probably an active startup using the name.
 
 Correction: an earlier version said Oivaro "means insight and excellence in Finnish". That was wrong; Oivaro is a coined word with no Finnish meaning.

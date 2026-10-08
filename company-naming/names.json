@@ -1215,8 +1215,8 @@
       }
     },
     "meaning": "IT fiutare 'to sniff out' (fiuto = business flair)",
-    "verdict": "shortlist",
-    "web_screen": "no hit; nearest FIYTA (watches)"
+    "verdict": "shortlist #1",
+    "web_screen": "no hit; nearest FIYTA (watches); fiuta.com on NameBright DNS (domain marketplace, likely purchasable); fiuta.fi and fiuta.ai NXDOMAIN"
   },
   "Fiuto": {
     "auto": {
@@ -3060,8 +3060,8 @@
       }
     },
     "meaning": "IT scovare 'to unearth / ferret out'",
-    "verdict": "shortlist #1",
-    "web_screen": "no company/brand found; nearest Skavo Oy (unrelated); scova.ai registered but no visible product"
+    "verdict": "demoted: scova.ai live",
+    "web_screen": "no company/brand found; nearest Skavo Oy (unrelated); scova.ai registered but no visible product; scova.ai is live: IONOS DNS, A record 185.158.133.1 (believed to be Lovable app hosting) -> likely active startup, brand-conflict risk"
   },
   "Scruta": {
     "auto": {
