@@ -1,0 +1,1631 @@
+{
+  "Acume": {
+    "auto": {
+      "checked": "2026-10-08T13:18:32+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "ns0.wixdns.net.",
+            "ns1.wixdns.net."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns1.nbcuni.com.",
+            "ns4.nbcuni.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns3.zoner.fi.",
+            "ns2.zoner.fi."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Acume (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Acume",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Acumeo": {
+    "auto": {
+      "checked": "2026-10-08T13:20:05+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "dns14.ovh.net.",
+            "ns14.ovh.net."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Acumeo (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Acumeo",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Aistima": {
+    "auto": {
+      "checked": "2026-10-08T13:19:07+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "dnssec2.euronic.fi.",
+            "dnssec3.euronic.fi."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "name exists in DNS",
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Aistima (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Aistima",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Ennova": {
+    "auto": {
+      "checked": "2026-10-08T13:20:20+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "ns19.worldnic.com.",
+            "ns20.worldnic.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns2.scannet2.dk.",
+            "ns.scannet2.dk."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Ennova (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Ennova",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Ennus": {
+    "auto": {
+      "checked": "2026-10-08T13:18:36+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns2.power-dns.com.",
+            "ns3.power-dns.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Ennus (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Ennus",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Ennusto": {
+    "auto": {
+      "checked": "2026-10-08T13:19:10+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Ennusto (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Ennusto",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "FI ennuste 'forecast', Italianised -o",
+    "verdict": "shortlist",
+    "web_screen": "no company/brand found; risk: 1 letter from common noun 'ennuste' (weak distinctiveness for TM)"
+  },
+  "Fiuto": {
+    "auto": {
+      "checked": "2026-10-08T13:18:47+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "nick.ns.cloudflare.com.",
+            "julissa.ns.cloudflare.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns02.hostfactory.ch.",
+            "ns01.hostfactory.ch."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Fiuto (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Fiuto",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Fiutora": {
+    "auto": {
+      "checked": "2026-10-08T13:20:09+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Fiutora (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Fiutora",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Itumo": {
+    "auto": {
+      "checked": "2026-10-08T13:19:12+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "damao.ns.giantpanda.com.",
+            "yangguang.ns.giantpanda.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Itumo (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Itumo",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Kasvanta": {
+    "auto": {
+      "checked": "2026-10-08T13:20:18+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Kasvanta (Caused by ProxyEr",
+        "source": "https://www.allabolag.se/what/Kasvanta",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "FI kasvaa 'to grow' + -nta",
+    "verdict": "shortlist",
+    "web_screen": "no hit at all"
+  },
+  "Kipino": {
+    "auto": {
+      "checked": "2026-10-08T13:19:30+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "dns2.registrar-servers.com.",
+            "dns1.registrar-servers.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Kipino (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Kipino",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "FI kipinä 'spark'",
+    "verdict": "reject",
+    "web_screen": "1 letter from very common 'Kipinä' company names"
+  },
+  "Lumetra": {
+    "auto": {
+      "checked": "2026-10-08T13:19:26+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "dns1.registrar-servers.com.",
+            "dns2.registrar-servers.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns1158.dns.dyn.com.",
+            "ns4128.dns.dyn.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "reese.ns.cloudflare.com.",
+            "sandy.ns.cloudflare.com."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Lumetra (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Lumetra",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Lumivo": {
+    "auto": {
+      "checked": "2026-10-08T13:20:14+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "cns3.cloudpit.io.",
+            "cns2.cloudpit.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns63.domaincontrol.com.",
+            "ns64.domaincontrol.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Lumivo (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Lumivo",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Nousio": {
+    "auto": {
+      "checked": "2026-10-08T13:19:18+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns1.dns-parking.com.",
+            "ns2.dns-parking.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Nousio (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Nousio",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "FI nousu 'rise'",
+    "verdict": "reject",
+    "web_screen": "Nousua Oy 3101890-8 = Espoo software firm (2-letter diff, same field)"
+  },
+  "Oivalto": {
+    "auto": {
+      "checked": "2026-10-08T13:19:05+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "dns18.ovh.net.",
+            "ns18.ovh.net."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Oivalto (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Oivalto",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "FI oivaltaa 'to grasp an insight' + IT alto 'high'",
+    "verdict": "shortlist",
+    "web_screen": "no exact hit; same 'Oiva' stem risk; nearest Oivalainen Oy (construction)"
+  },
+  "Oivaro": {
+    "auto": {
+      "checked": "2026-10-08T13:20:01+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Oivaro (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Oivaro",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "FI oiva 'excellent', root of oivallus 'insight' + Italian-sounding -aro",
+    "verdict": "shortlist",
+    "web_screen": "no exact hit; only Opel Vivaro (van). Stem risk: 'Oiva' in Asumispalvelut Oiva Oy 2541958-8, Oiva Isännöinti Oy 2430066-5"
+  },
+  "Orastia": {
+    "auto": {
+      "checked": "2026-10-08T13:20:16+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns18.ovh.net.",
+            "dns18.ovh.net."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Orastia (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Orastia",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Orasto": {
+    "auto": {
+      "checked": "2026-10-08T13:19:13+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "nsg1.namebrightdns.com.",
+            "nsg2.namebrightdns.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Orasto (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Orasto",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Orma": {
+    "auto": {
+      "checked": "2026-10-08T13:18:34+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "dns2.registrar-servers.com.",
+            "dns1.registrar-servers.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns4.afternic.com.",
+            "ns3.afternic.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns1.domain247.fi.",
+            "ns2.domain247.fi."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Orma (Caused by ProxyError(",
+        "source": "https://www.allabolag.se/what/Orma",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Senno": {
+    "auto": {
+      "checked": "2026-10-08T13:18:49+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "name exists in DNS",
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns07.domaincontrol.com.",
+            "ns08.domaincontrol.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns2.simply.com.",
+            "ns1.simply.com."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Senno (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Senno",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Seula": {
+    "auto": {
+      "checked": "2026-10-08T13:18:41+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "dns2.registrar-servers.com.",
+            "dns1.registrar-servers.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns38.domaincontrol.com.",
+            "ns37.domaincontrol.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns-706.awsdns-24.net.",
+            "ns-1682.awsdns-18.co.uk."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Seula (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Seula",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Seulia": {
+    "auto": {
+      "checked": "2026-10-08T13:20:10+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Seulia (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Seulia",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Spinta": {
+    "auto": {
+      "checked": "2026-10-08T13:18:28+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "launch2.spaceship.net.",
+            "launch1.spaceship.net."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns1.afternic.com.",
+            "ns2.afternic.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "zoner.g1-dns.one.",
+            "zoner.g1-dns.com."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Spinta (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Spinta",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Spintaro": {
+    "auto": {
+      "checked": "2026-10-08T13:20:22+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "julissa.ns.cloudflare.com.",
+            "quincy.ns.cloudflare.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Spintaro (Caused by ProxyEr",
+        "source": "https://www.allabolag.se/what/Spintaro",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Spuntia": {
+    "auto": {
+      "checked": "2026-10-08T13:19:24+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Spuntia (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Spuntia",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "IT spunto 'cue / starting point'",
+    "verdict": "backup",
+    "web_screen": "no hit; reads as 'spuntino' (snack) to Italians"
+  },
+  "Stima": {
+    "auto": {
+      "checked": "2026-10-08T13:18:26+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "ns1.atom.com.",
+            "ns2.atom.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns2.sawsells.com.",
+            "ns1.sawsells.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns2.w3b.fi.",
+            "ns1.w3b.fi."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Stima (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Stima",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Stimanta": {
+    "auto": {
+      "checked": "2026-10-08T13:20:03+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Stimanta (Caused by ProxyEr",
+        "source": "https://www.allabolag.se/what/Stimanta",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "IT stima 'estimate / esteem' + -anta",
+    "verdict": "shortlist",
+    "web_screen": "no exact hit; STIMA crypto token (unrelated field)"
+  },
+  "Stimaro": {
+    "auto": {
+      "checked": "2026-10-08T13:19:28+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "zainab.ns.cloudflare.com.",
+            "watson.ns.cloudflare.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Stimaro (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Stimaro",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "IT stima 'estimate' + -aro",
+    "verdict": "backup",
+    "web_screen": "no hit; .com taken"
+  },
+  "Svolta": {
+    "auto": {
+      "checked": "2026-10-08T13:18:45+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "ns54.domaincontrol.com.",
+            "ns53.domaincontrol.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns2.namefind.com.",
+            "ns1.namefind.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Svolta (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Svolta",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Svoltia": {
+    "auto": {
+      "checked": "2026-10-08T13:19:31+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Svoltia (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Svoltia",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "meaning": "IT svolta 'turning point'",
+    "verdict": "shortlist-risk",
+    "web_screen": "no exact hit; SVOLT Energy (batteries) holds marks incl. class 9 -> TM risk"
+  },
+  "Taimi": {
+    "auto": {
+      "checked": "2026-10-08T13:18:43+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "betty.ns.cloudflare.com.",
+            "everton.ns.cloudflare.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns-1004.awsdns-61.net.",
+            "ns-173.awsdns-21.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "dns1.sydweb.fi.",
+            "dns3.sydweb.fi."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Taimi (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Taimi",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Taimisto": {
+    "auto": {
+      "checked": "2026-10-08T13:19:17+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns3.bdm.microsoftonline.com.",
+            "ns1.bdm.microsoftonline.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns-fi.elisa.net.",
+            "ns-se.elisa.net."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Taimisto (Caused by ProxyEr",
+        "source": "https://www.allabolag.se/what/Taimisto",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Tuikea": {
+    "auto": {
+      "checked": "2026-10-08T13:20:12+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "name exists in DNS",
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Tuikea (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Tuikea",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Vaisto": {
+    "auto": {
+      "checked": "2026-10-08T13:18:39+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "ns1.vercel-dns.com.",
+            "ns2.vercel-dns.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "cns2.cloudpit.com.",
+            "cns3.cloudpit.io."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns416-2.netfinn.net.",
+            "ns416-1.netfinn.net."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Vaisto (Caused by ProxyErro",
+        "source": "https://www.allabolag.se/what/Vaisto",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Vaistomo": {
+    "auto": {
+      "checked": "2026-10-08T13:20:07+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "fi": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Vaistomo (Caused by ProxyEr",
+        "source": "https://www.allabolag.se/what/Vaistomo",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "unscreened"
+  },
+  "Verso": {
+    "auto": {
+      "checked": "2026-10-08T13:18:30+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "ns1.atom.com.",
+            "ns2.atom.com."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns2.firstserved.net.",
+            "ns1.firstserved.net."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "cass.ns.cloudflare.com.",
+            "graham.ns.cloudflare.com."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Verso (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Verso",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Versoma": {
+    "auto": {
+      "checked": "2026-10-08T13:19:15+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "note": "no DNS delegation; RDAP unreachable -> confirm at registrar",
+          "status": "likely_free"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "dns2.registrar-servers.com.",
+            "dns1.registrar-servers.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "dnssec3.euronic.fi.",
+            "dnssec1.euronic.fi."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Versoma (Caused by ProxyErr",
+        "source": "https://www.allabolag.se/what/Versoma",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  },
+  "Vireo": {
+    "auto": {
+      "checked": "2026-10-08T13:19:22+00:00",
+      "domains": {
+        "ai": {
+          "method": "dns",
+          "ns": [
+            "launch2.spaceship.net.",
+            "launch1.spaceship.net."
+          ],
+          "status": "taken"
+        },
+        "com": {
+          "method": "dns",
+          "ns": [
+            "ns1.fabulous.com.",
+            "ns2.fabulous.com."
+          ],
+          "status": "taken"
+        },
+        "fi": {
+          "method": "dns",
+          "ns": [
+            "ns-se.elisa.net.",
+            "ns-fi.elisa.net."
+          ],
+          "status": "taken"
+        }
+      },
+      "se_ab": {
+        "error": "ProxyError: HTTPSConnectionPool(host='www.allabolag.se', port=443): Max retries exceeded with url: /what/Vireo (Caused by ProxyError",
+        "source": "https://www.allabolag.se/what/Vireo",
+        "status": "blocked"
+      },
+      "tm": {
+        "error": "ProxyError",
+        "source": "https://www.tmdn.org/tmview/api/search/results",
+        "status": "blocked"
+      },
+      "ytj": {
+        "error": "ProxyError: HTTPSConnectionPool(host='avoindata.prh.fi', port=443): Max retries exceeded with url: /opendata-ytj-api/v3/companies?na",
+        "source": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies",
+        "status": "blocked"
+      }
+    },
+    "verdict": "reject (domains)"
+  }
+}
