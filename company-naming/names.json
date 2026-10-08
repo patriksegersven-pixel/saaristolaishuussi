@@ -437,6 +437,13 @@
     "verdict": "reject",
     "web_screen": "Augeo Marketing (US, ~$0.5B, class 35)"
   },
+  "Augera": {
+    "deep_screen": {
+      "notes": "Augere AB (now Marketmate), Auree Oy (software), crowded Aug- AI space",
+      "risk": "MINOR-HIGH"
+    },
+    "verdict": "reject"
+  },
   "Augura": {
     "auto": {
       "checked": "2026-10-08T17:30:13+00:00",
@@ -1130,8 +1137,12 @@
         "status": "blocked"
       }
     },
+    "deep_screen": {
+      "notes": "Ennuro Oy 2694671-8 (mgmt consulting) 2 letters; near-descriptive",
+      "risk": "MINOR"
+    },
     "meaning": "Coined; evokes FI 'ennuste' (forecast)",
-    "verdict": "shortlist",
+    "verdict": "backup (Finnish)",
     "web_screen": "no company/brand found; risk: 1 letter from common noun 'ennuste' (weak distinctiveness for TM)"
   },
   "Fervida": {
@@ -1214,8 +1225,12 @@
         "status": "blocked"
       }
     },
+    "deep_screen": {
+      "notes": "Fiuter: Madrid AI e-commerce segmentation SaaS (same niche); 'fiut' vulgar in Polish",
+      "risk": "MAJOR"
+    },
     "meaning": "IT fiutare 'to sniff out' (fiuto = business flair)",
-    "verdict": "shortlist #1",
+    "verdict": "reject",
     "web_screen": "no hit; nearest FIYTA (watches); fiuta.com on NameBright DNS (domain marketplace, likely purchasable); fiuta.fi and fiuta.ai NXDOMAIN"
   },
   "Fiuto": {
@@ -1390,6 +1405,13 @@
       }
     },
     "verdict": "unscreened"
+  },
+  "Fructio": {
+    "deep_screen": {
+      "notes": "Fructifi (FR retention analytics); Fructis shampoo",
+      "risk": "MINOR"
+    },
+    "verdict": "reject"
   },
   "Fulcra": {
     "auto": {
@@ -1612,6 +1634,13 @@
     },
     "verdict": "unscreened"
   },
+  "Indizia": {
+    "deep_screen": {
+      "notes": "Indicia AB (mgmt consulting), Indicium AI; IT 'indiziato'=suspect",
+      "risk": "MINOR"
+    },
+    "verdict": "reject"
+  },
   "Intuira": {
     "auto": {
       "checked": "2026-10-08T17:30:33+00:00",
@@ -1830,6 +1859,13 @@
     "verdict": "shortlist",
     "web_screen": "no hit at all"
   },
+  "Kertio": {
+    "deep_screen": {
+      "notes": "Kortio AB 556781-2978 (IT/web, Göteborg) 1 letter; Certia Oy sound-alike",
+      "risk": "MINOR"
+    },
+    "verdict": "backup"
+  },
   "Kipino": {
     "auto": {
       "checked": "2026-10-08T13:19:30+00:00",
@@ -1916,6 +1952,13 @@
       }
     },
     "verdict": "unscreened"
+  },
+  "Lucerio": {
+    "deep_screen": {
+      "notes": "Luceria AB 559453-8521 (tiny ad agency, SE); Lucera GmbH / Lucere Datascience (AI, other markets)",
+      "risk": "MINOR"
+    },
+    "verdict": "shortlist #4"
   },
   "Lucida": {
     "auto": {
@@ -2095,6 +2138,13 @@
       }
     },
     "verdict": "unscreened"
+  },
+  "Margea": {
+    "deep_screen": {
+      "notes": "identical MarGea AB (tiny, Stockholm, field unknown); Margeia Oy cleaning; Margeo (FR reseller tool)",
+      "risk": "MINOR"
+    },
+    "verdict": "backup"
   },
   "Margina": {
     "auto": {
@@ -2970,6 +3020,13 @@
     },
     "verdict": "unscreened"
   },
+  "Sagira": {
+    "deep_screen": {
+      "notes": "Sagura Oy 3011455-1 (IT consulting, Joensuu) 1 letter",
+      "risk": "MAJOR"
+    },
+    "verdict": "reject"
+  },
   "Sapio": {
     "auto": {
       "checked": "2026-10-08T17:29:55+00:00",
@@ -3062,6 +3119,20 @@
     "meaning": "IT scovare 'to unearth / ferret out'",
     "verdict": "demoted: scova.ai live",
     "web_screen": "no company/brand found; nearest Skavo Oy (unrelated); scova.ai registered but no visible product; scova.ai is live: IONOS DNS, A record 185.158.133.1 (believed to be Lovable app hosting) -> likely active startup, brand-conflict risk"
+  },
+  "Scovara": {
+    "deep_screen": {
+      "notes": "Skavara AB 559240-3546 (e-commerce consulting, Göteborg) near-homophone",
+      "risk": "HIGH-MINOR"
+    },
+    "verdict": "reject"
+  },
+  "Scovia": {
+    "deep_screen": {
+      "notes": "Scopia Oy 3424436-1 (software, Espoo) 1 letter; Avaya Scopia",
+      "risk": "MAJOR"
+    },
+    "verdict": "reject"
   },
   "Scruta": {
     "auto": {
@@ -3660,8 +3731,12 @@
         "status": "blocked"
       }
     },
+    "deep_screen": {
+      "notes": "no exact/similar Oy, AB or TM in 9/35/42; nearest Stima tmi (Tampere consulting, sole trader), STIMA AB (Västerås)",
+      "risk": "CLEAN"
+    },
     "meaning": "Coined from IT 'stima' (estimate / esteem); no Finnish meaning",
-    "verdict": "shortlist",
+    "verdict": "shortlist #1",
     "web_screen": "no exact hit; STIMA crypto token (unrelated field)"
   },
   "Stimaro": {
@@ -3706,6 +3781,13 @@
     "meaning": "IT stima 'estimate' + -aro",
     "verdict": "backup",
     "web_screen": "no hit; .com taken"
+  },
+  "Stimea": {
+    "deep_screen": {
+      "notes": "nothing close in tech/data/marketing; Sitema Oy, Styma Oy, Stremia Oy unrelated; stimea.com on Afternic (for sale)",
+      "risk": "CLEAN"
+    },
+    "verdict": "shortlist #2"
   },
   "Svela": {
     "auto": {
@@ -3752,6 +3834,13 @@
     "meaning": "IT svelare 'to unveil'",
     "verdict": "shortlist-risk",
     "web_screen": "⚠ identical SveLa AB 556525-3571 (SE, apparently dormant, field unknown); Svola Oy (salon)"
+  },
+  "Svelia": {
+    "deep_screen": {
+      "notes": "Svevia AB (publ) 556768-9848 large SE road contractor, 1 letter; Sevalia Oy cleaning",
+      "risk": "MINOR"
+    },
+    "verdict": "shortlist #5"
   },
   "Svolta": {
     "auto": {
@@ -4060,6 +4149,13 @@
     },
     "verdict": "unscreened"
   },
+  "Trazia": {
+    "deep_screen": {
+      "notes": "no identical Oy/AB/TM; Traza (supply-chain analytics, NY), Tracio (AI, FR) weak near-misses; trazia.com hosted (site5) = in use",
+      "risk": "CLEAN"
+    },
+    "verdict": "shortlist #3"
+  },
   "Tuikea": {
     "auto": {
       "checked": "2026-10-08T13:20:12+00:00",
@@ -4097,6 +4193,13 @@
       }
     },
     "verdict": "unscreened"
+  },
+  "Tuiko": {
+    "deep_screen": {
+      "notes": "only a hobby PyPI lib 'tuiko'; Finnish-sounding, weak internationally",
+      "risk": "CLEAN-ish"
+    },
+    "verdict": "backup (Finnish)"
   },
   "Vaglio": {
     "auto": {

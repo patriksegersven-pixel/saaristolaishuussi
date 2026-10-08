@@ -1,60 +1,56 @@
-# Company name search: shortlist (registry checks pending)
+# Company name search: final shortlist (registry checks pending)
 
-Run 2026-10-08. 8 batches, 102 candidates. Raw results are in `names.json`; the checker is `check_names.py`.
+Updated 2026-10-08. About 190 names DNS-screened; 40+ deep-screened for conflicts. Raw data is in `names.json`.
+Tools: `check_names.py` (full checker) and `bulk_dns.py` (fast domain screen).
 
-## Read this first: what was and wasn't verified
+## What was and wasn't verified
+The environment's egress policy **blocks every registry**: PRH/YTJ, TMview/EUIPO, allabolag, Bolagsverket, RDAP and whois.
+- **Domains:** live DNS NS lookups (.com, .fi, .ai, .se). "free" = not delegated at the TLD, so very likely unregistered; confirm at a registrar.
+- **Companies, trademarks, AB:** web searches scoped to asiakastieto/finder/scoris (FI), allabolag/merinfo/ratsit/hitta (SE),
+  and justia/trademarkelite/euipo (TM), including 1–2 letter variants. Indirect: **manual registry check still required.**
 
-This session's network egress policy **blocked every registry host**:
-`avoindata.prh.fi` (YTJ), `tmdn.org` / `euipo.europa.eu` (TMview), `allabolag.se`, `bolagsverket.se`,
-`rdap.org` / `rdap.fi` / Verisign / Identity Digital RDAP, and whois (port 43).
+## Final shortlist (international)
 
-| Check | What was actually done | Strength |
-|---|---|---|
-| YTJ (PRH) | API call → blocked. Web search of FI directories (asiakastieto, finder, scoris) | Indirect: **manual check required** |
-| Trademarks 9/35/42 | TMview call → blocked. Web search incl. euipo/wipo/justia | Indirect: **manual check required** |
-| Swedish AB | allabolag → blocked. Web search scoped to allabolag/merinfo/hitta | Indirect: **manual check required** |
-| Domains | RDAP blocked → **live DNS NS lookup** at the TLD | Real lookup. NXDOMAIN = not delegated = very likely free; confirm at registrar |
-| Web/brand | Web search per name | Real |
+| # | Name | Meaning | FI Oy (web) | Trademark (web) | SE AB (web) | .fi | .com | .ai | .se | Verdict |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | **Stimanta** | IT *stima* "estimate / esteem"; echoes *diamante* / FI *timantti* (diamond) | none close; only *Stima* sole trader, Tampere | none in 9/35/42 | *STIMA AB* (Västerås, field unknown) | free | **free** | free | free | **Recommended** |
+| 2 | **Stimea** | IT *stima*, shorter form | none in field (Sitema, Styma, Stremia: unrelated) | none | none close | free | for sale (Afternic) | free | free | Clean |
+| 3 | **Trazia** | IT *trazione* "traction"; ES *traza* "trace" | none in field | none identical (Traze: supply-chain SaaS, US) | none in field | free | in use (hosted) | free | free | Clean |
+| 4 | **Lucerio** | IT *lucerna* "lamp" / ES *lucero* "bright star": insight | none | none in 9/35/42 | ⚠ *Luceria AB* (tiny ad agency) | free | taken (GoDaddy) | free | free | Minor risk |
+| 5 | **Svelia** | IT *svelare* "to unveil" | none in field | none in 9/35/42 | ⚠ *Svevia AB*, large SE road contractor, 1 letter | free | parked (investor) | free | taken | Minor risk |
 
-**No name is marked "viable" yet.** To finish, allow those hosts in the environment's network settings and run
-`python3 check_names.py --recheck Scova Fiuta Scruta Margina Svela Ennusto Oivalto Stimanta`.
+Backups: Margea (identical tiny *MarGea AB* in SE), Kertio (*Kortio AB* IT, 1 letter), Tuiko (clean, but reads Finnish-only).
 
-## Shortlist: international
+## Rejected after deep screen
+| Name | Reason |
+|---|---|
+| Fiuta | *Fiuter*: Madrid AI e-commerce segmentation SaaS (same niche); "fiut" is vulgar in Polish |
+| Scova | scova.ai is a live site |
+| Scovia | *Scopia Oy* 3424436-1, software, Espoo (1 letter); Avaya Scopia |
+| Scovara | *Skavara AB* 559240-3546, e-commerce consulting, Göteborg (near-homophone) |
+| Sagira | *Sagura Oy* 3011455-1, IT consulting (1 letter) |
+| Augera | crowded: *Augere AB* (info services), *Auree Oy* (software), Auger/Augeo/Augury |
+| Fructio | *Fructifi* (FR retention analytics); Fructis shampoo |
+| Indizia | *Indicia AB* (consulting), Indicium AI; IT *indiziato* = "suspect" |
+| Ennusto | *Ennuro Oy* (consulting, 2 letters); near-descriptive "ennuste" |
+| Earlier rounds | Augeo, Fulcra, Intuira, Auguro, Fulcrio, Presago, Auxeo, Ascio, Rivela, Coltiva, Sondaro, Sprona, Spicca, Nousio, Kipino (see `names.json`) |
 
-| Name | Meaning | YTJ | Trademark | Swedish AB | .fi | .com | .ai | Verdict |
-|---|---|---|---|---|---|---|---|---|
-| **Scova** | IT *scovare* "to unearth / ferret out": finding the hidden growth | manual; no hit (nearest *Skavo Oy*, unrelated) | manual; none found | manual; none found | free* | taken | taken: live site (likely an active startup) | Demoted |
-| **Fiuta** | IT *fiutare* "to sniff out"; *fiuto* = business flair | manual; no hit | manual; none found (nearest FIYTA, watches) | manual; none found | free* | taken (parked at NameBright, likely buyable) | free* | **#1** |
-| **Scruta** | IT *scrutare* "to scrutinise"; reads as "scrutiny" in EN | manual; no hit | ⚠ *Scrut Automation* (compliance SaaS, class 42), 1 letter | manual; none found | free* | taken | free* | Risky |
-| **Margina** | "margin": profit-first growth (IT *margine*, SV *marginal*) | ⚠ crowded stem: *Marginum Oy*, *Margeia Oy*, *Margin Investments Oy* | manual; none found | manual; none found | free* | taken | free* | Risky (PRH) |
-| **Svela** | IT *svelare* "to unveil" | manual; *Svola Oy* (salon) only | manual; none found | ⚠ identical *SveLa AB* 556525-3571 (apparently dormant) | free* | taken | taken | Risky (SE) |
-
-## Shortlist: Finnish/Italian roots (from batches 1–3)
-
-| Name | Meaning | .fi | .com | .ai | Note |
-|---|---|---|---|---|---|
-| Oivalto | Coined from FI *oivaltaa* "to have an insight" + IT *alto* | free* | taken | free* | "Oiva" stem in several Oy names |
-| Ennusto | Coined; evokes FI *ennuste* "forecast" | free* | free* | free* | close to a descriptive word |
-| Stimanta | Coined from IT *stima* "estimate / esteem" | free* | free* | free* | clean on web |
-| Oivaro | Coined; echoes FI *oiva*. **No meaning in Finnish** | free* | free* | free* | "Oiva" stem |
-
-\* free = no DNS delegation at the registry (live lookup); confirm at the registrar before announcing.
-
-## What failed, and what it taught
-- **Real words (Finnish, Latin or Italian, 4–6 letters):** effectively every .com is taken, and most .fi.
-- **Crowded "insight" roots:** augur, presage, intuit, fulcrum and auxo are already used by analytics brands.
-  Rejected: Augeo (US marketing co., class 35), Fulcra (Fulcra Dynamics data platform), Intuira (Intura data-viz),
-  Auguro (AUGURI decision-support TM), Fulcrio (Fulcri Srl software), Presago (Presage Analytics), Auxeo (Auxo Software), Ascio (domain registrar).
-- **Italian verbs** were the most productive seam. Rejected: Rivela (Rivelo, an Italian forecasting platform),
-  Coltiva (Koltiva), Sprona (Sprana), Sondaro (Sondarö, an island and a FI company), Spicca (contains an English ethnic slur).
-- **Finnish-root conflicts:** Nousio (Nousua Oy, software, Espoo), Kipino (Kipinä).
+## Lessons
+- Pronounceable 4–7 letter .com domains are effectively all registered; Stimanta was the only clean one with .com free.
+- "Insight" roots (augur, presage, intuit, lumen, fulcrum, scov-) are crowded with analytics brands.
+- Swedish and Finnish small-company registers carry many 1-letter neighbours, so check both before filing.
 
 ## Recommendation
-**Fiuta**: Italian *fiutare*, "to sniff out"; *fiuto* is the Italian word for business flair. Five letters, said the same way
-everywhere ("FYOO-ta"). No company or brand found, .fi and .ai not delegated, and the .com is parked at a domain marketplace.
-Tagline: *"Fiuta: a nose for profitable growth."*
+**Stimanta**: Italian *stima* (estimate and esteem: what the data says, and the trust it earns), with a sound that echoes
+*diamante* / *timantti*. Says the same in Finnish, Swedish, English and Italian (sti-MAN-ta). It is the only name screened
+that is clean on the web and has .com, .fi, .ai and .se all unregistered.
+Tagline: *"Stimanta: growth you can estimate."*
 
-Scova was the previous #1. It was demoted because scova.ai serves a live site (IONOS DNS, A record 185.158.133.1,
-believed to be app-builder hosting), so there is probably an active startup using the name.
+Fallback: **Stimea** (shorter; .com buyable on Afternic). Mild caveat for both: English slang "stim" (stimulants or stimming).
 
-Correction: an earlier version said Oivaro "means insight and excellence in Finnish". That was wrong; Oivaro is a coined word with no Finnish meaning.
+Correction: an earlier version said Oivaro "means insight and excellence in Finnish". That was wrong; Oivaro is a coined word.
+
+## To finish
+Allow the registry hosts in the environment's network settings, then run
+`python3 check_names.py --recheck Stimanta Stimea Trazia Lucerio Svelia`.
+Also search TMview manually for similar marks in classes 9/35/42, and register the domains promptly.
