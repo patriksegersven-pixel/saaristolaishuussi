@@ -24,11 +24,11 @@ To finish, allow the hosts above in the environment's network settings and run
 
 | Name | Meaning | YTJ | Trademark | Swedish AB | .fi | .com | .ai | Verdict |
 |---|---|---|---|---|---|---|---|---|
-| **Oivaro** | FI *oiva* "excellent", root of *oivallus* "insight"; Italian-sounding ending | manual. No exact hit; ⚠ stem "Oiva" in *Asumispalvelut Oiva Oy*, *Oiva Isännöinti Oy* | manual. None found on web | manual. None found | free* | free* | free* | **Shortlist #1** |
-| **Ennusto** | FI *ennuste* "forecast", Italianised | manual. No hit | manual. None found; ⚠ close to descriptive word "ennuste" | manual. None found | free* | free* | free* | Shortlist |
-| **Stimanta** | IT *stima* "estimate / esteem" | manual. No hit | manual. Only STIMA crypto token (other field) | manual. None found | free* | free* | free* | Shortlist |
-| **Kasvanta** | FI *kasvaa* "to grow" | manual. No hit | manual. None found | manual. None found | free* | free* | free* | Shortlist |
-| **Oivalto** | FI *oivaltaa* "to grasp an insight" + IT *alto* "high" | manual. Same "Oiva" stem risk | manual. None found | manual. None found | free* | taken | free* | Shortlist (pick Oivaro *or* this) |
+| **Oivaro** | Coined: echoes FI *oiva* ("excellent" / a man's name); **no meaning in Finnish** | manual. No exact hit; ⚠ stem "Oiva" in *Asumispalvelut Oiva Oy*, *Oiva Isännöinti Oy* | manual. None found on web | manual. None found | free* | free* | free* | Shortlist |
+| **Ennusto** | Coined: evokes FI *ennuste* "forecast" | manual. No hit | manual. None found; ⚠ close to descriptive word "ennuste" | manual. None found | free* | free* | free* | Shortlist |
+| **Stimanta** | Coined from IT *stima* "estimate / esteem" | manual. No hit | manual. Only STIMA crypto token (other field) | manual. None found | free* | free* | free* | Shortlist |
+| **Kasvanta** | Coined: evokes FI *kasvaa* "to grow" | manual. No hit | manual. None found | manual. None found | free* | free* | free* | Shortlist |
+| **Oivalto** | Coined from FI verb *oivaltaa* "to have an insight" + IT *alto* "high" | manual. Same "Oiva" stem risk | manual. None found | manual. None found | free* | taken | free* | **Shortlist #1** (pick this *or* Oivaro) |
 | Svoltia | IT *svolta* "turning point" | manual. No hit | ⚠ SVOLT Energy (batteries) holds marks, class 9 | manual. None found | free* | free* | free* | Risky |
 | Stimaro | IT *stima* + -aro | manual. No hit | manual. None found | manual. None found | free* | taken | free* | Backup |
 
@@ -41,7 +41,9 @@ To finish, allow the hosts above in the environment's network settings and run
 - **Versoma, Taimisto, Aistima, Lumetra, Vireo, Ennova, Lumivo:** .fi taken, or both .fi and .com taken.
 
 ## Recommendation
-**Oivaro**: insight and excellence in Finnish, an easy Italian sound, nothing else using it on the web, and all three domains undelegated.
-Tagline: *"Oivaro: insight that compounds."*
+**Oivalto**: the only shortlisted name built on a real Finnish word, the verb *oivaltaa* ("to have an insight"), so it reads as insight to Finns. Its .com is taken; .fi and .ai look free. It shares the "Oiva" stem risk at PRH.
+Tagline: *"Oivalto: see the growth others miss."*
 
-Fallback if PRH objects to the "Oiva" stem: **Stimanta** (no stem conflict, all domains free).
+If .com matters more: **Ennusto** evokes *ennuste* ("forecast"), and .fi, .com and .ai all look free.
+
+Correction: an earlier version said Oivaro "means insight and excellence in Finnish". That was wrong; Oivaro is a coined word with no Finnish meaning.

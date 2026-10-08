@@ -249,7 +249,7 @@
         "status": "blocked"
       }
     },
-    "meaning": "FI ennuste 'forecast', Italianised -o",
+    "meaning": "Coined; evokes FI 'ennuste' (forecast)",
     "verdict": "shortlist",
     "web_screen": "no company/brand found; risk: 1 letter from common noun 'ennuste' (weak distinctiveness for TM)"
   },
@@ -412,7 +412,7 @@
         "status": "blocked"
       }
     },
-    "meaning": "FI kasvaa 'to grow' + -nta",
+    "meaning": "Coined; evokes FI 'kasvaa' (to grow)",
     "verdict": "shortlist",
     "web_screen": "no hit at all"
   },
@@ -632,8 +632,8 @@
         "status": "blocked"
       }
     },
-    "meaning": "FI oivaltaa 'to grasp an insight' + IT alto 'high'",
-    "verdict": "shortlist",
+    "meaning": "Coined from FI verb 'oivaltaa' (to have an insight) + IT 'alto' (high)",
+    "verdict": "shortlist #1",
     "web_screen": "no exact hit; same 'Oiva' stem risk; nearest Oivalainen Oy (construction)"
   },
   "Oivaro": {
@@ -672,7 +672,7 @@
         "status": "blocked"
       }
     },
-    "meaning": "FI oiva 'excellent', root of oivallus 'insight' + Italian-sounding -aro",
+    "meaning": "Coined; echoes FI 'oiva' (excellent / a man's name). No meaning in Finnish.",
     "verdict": "shortlist",
     "web_screen": "no exact hit; only Opel Vivaro (van). Stem risk: 'Oiva' in Asumispalvelut Oiva Oy 2541958-8, Oiva Isännöinti Oy 2430066-5"
   },
@@ -1145,7 +1145,7 @@
         "status": "blocked"
       }
     },
-    "meaning": "IT stima 'estimate / esteem' + -anta",
+    "meaning": "Coined from IT 'stima' (estimate / esteem); no Finnish meaning",
     "verdict": "shortlist",
     "web_screen": "no exact hit; STIMA crypto token (unrelated field)"
   },
